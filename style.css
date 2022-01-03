@@ -1,0 +1,30 @@
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="color"] {
+    width: 30px;
+    height: 30px;
+}
+input[type="color"]:hover {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 100px;
+    height: 25px;
+}
+input[type="text"]:hover {
+    cursor: initial;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+button:hover {
+    cursor: pointer;
+}
